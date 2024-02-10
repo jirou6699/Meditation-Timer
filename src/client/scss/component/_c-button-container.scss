@@ -1,14 +1,16 @@
 @use "../configuration" as *;
+$button-circle-size: 4rem;
+
 
 .c-button-container {
-  width: 15rem;
-  max-width: 100%;
-
-  &.is-primary {
-    margin: 10rem auto 0;
+  &.is-default {
+    width: 10rem;
   }
 
-  &.is-secondary {
-    margin: auto auto 0;
+  &.is-primary {
+    width: $button-circle-size;
+    height: $button-circle-size;
+    overflow: hidden;
+    border-radius: 50em;
   }
 }
