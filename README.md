@@ -1,8 +1,8 @@
 Meditation-TIMER
 About
-This is a Meditation-Timer with JavaScript.
-・The theme of Meditation-Timer is inspired by [the following link](https://github.com/developedbyed/meditation-timer). 
-・But the environment setup and coding have been created originally.
+This is a Meditation-Timer with JavaScript.  
+・The theme of Meditation-Timer is inspired by [the following link](https://github.com/developedbyed/meditation-timer).  
+・But the environment setup and coding have been created originally.  
 
 ![meditation-timer](./src/assets/images/app.png)
 
