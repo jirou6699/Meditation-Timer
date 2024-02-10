@@ -5,12 +5,21 @@ $button-circle-size: 4rem;
 .c-button-container {
   &.is-default {
     width: 10rem;
+    margin: auto;
+    &:not(:first-of-type) {
+      margin-top: 4rem;
+    }
   }
 
   &.is-primary {
     width: $button-circle-size;
     height: $button-circle-size;
+    margin: auto;
     overflow: hidden;
     border-radius: 50em;
+    
+    &:not(:first-of-type) {
+      margin-top: 4rem;
+    }
   }
 }

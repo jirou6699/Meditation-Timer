@@ -160,11 +160,11 @@ $grid-breakpoints: (
 
 // scss-docs-start container-max-widths
 $container-max-widths: (
-  sm: 550px,
-  md: 750px,
-  lg: 960px,
-  xl: 1080px,
-  xxl: 1100px,
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 100%,
+  xxl: 1400px,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -216,16 +216,16 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // z-index
-$zindex-1: 100 !default;
-$zindex-2: 200 !default;
-$zindex-3: 300 !default;
-$zindex-4: 400 !default;
-$zindex-5: 500 !default;
-$zindex-6: 600 !default;
-$zindex-7: 700 !default;
-$zindex-8: 800 !default;
-$zindex-9: 900 !default;
-$zindex-10: 1000 !default;
+$z-index-1: 100 !default;
+$z-index-2: 200 !default;
+$z-index-3: 300 !default;
+$z-index-4: 400 !default;
+$z-index-5: 500 !default;
+$z-index-6: 600 !default;
+$z-index-7: 700 !default;
+$z-index-8: 800 !default;
+$z-index-9: 900 !default;
+$z-index-10: 1000 !default;
 
 
 // $form-label
